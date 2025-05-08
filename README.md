@@ -25,6 +25,7 @@ This project demonstrates proficiency in:
 
 ## Repository Structure
 `boe_base_rate_forecast.ipynb`: The original Jupyter notebook containing the analysis, code, and visualizations. (New notebooks for latest updates)
+
 `README.md`: This file, providing an overview and guide to the project.
 
 ### Getting Started
