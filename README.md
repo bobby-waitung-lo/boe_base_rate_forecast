@@ -1,8 +1,8 @@
 # boe_base_rate_forecast
-This repository contains a Jupyter notebook that predicts the Bank of England’s Base Rate for 2025 using polynomial regression, showcasing advanced data science and analytical skills. The project leverages data from the February 2025 Monetary Policy Report to forecast a potential rate cut to 4.25% by May 2025.
+This repository contains a Jupyter notebook that predicts the Bank of England’s Base Rate using polynomial regression, showcasing advanced data science and analytical skills. The project leverages data from the latest Monetary Policy Report to forecast the change of Rate.
 
 ## Project Overview
-The notebook models and predicts the Bank of England’s Base Rate decisions, a critical factor influencing the UK economy. By analyzing quarterly rate data from Overnight Index Swap (OIS) rates, the project employs polynomial regression to generate daily predictions, focusing on Monetary Policy Committee (MPC) meeting dates in 2025. Key outputs include a robust model with an adjusted R-squared of 0.969 and visualizations of predicted rates.
+The notebook models and predicts the Bank of England’s Base Rate decisions, a critical factor influencing the UK economy. By analyzing quarterly rate data from Overnight Index Swap (OIS) rates, the project employs polynomial regression to generate daily predictions, focusing on Monetary Policy Committee (MPC) meeting dates in 2025. Key outputs include a robust model with an adjusted R-squared and visualizations of predicted rates.
 
 This project demonstrates proficiency in:
 - **Data Processing**: Cleaning and transforming time-series data using Pandas.
@@ -15,7 +15,7 @@ This project demonstrates proficiency in:
 - **Model Development**: Tests polynomial models (degrees 1–5) and selects the best fit (degree 4) based on adjusted R-squared to balance accuracy and complexity.
 - **Prediction Generation**: Produces daily rate predictions, rounded to 0.25% increments, reflecting practical Bank Rate adjustments.
 - **Visualization**: Plots quarterly data, continuous predictions, and adjusted predictions for clear interpretation.
-- **MPC Focus**: Extracts predicted rates for specific 2025 MPC meetings (e.g., May 8: 4.25%).
+- **MPC Focus**: Extracts predicted rates for upcoming MPC meetings.
 
 ## Skills Showcased
 - **Programming**: Python (Pandas, NumPy, scikit-learn, Matplotlib) for data manipulation, modeling, and visualization.
@@ -24,7 +24,7 @@ This project demonstrates proficiency in:
 - **Communication**: Clear documentation and visualizations to convey complex findings to technical and non-technical audiences.
 
 ## Repository Structure
-`boe_base_rate_forecast.ipynb`: The main Jupyter notebook containing the analysis, code, and visualizations.
+`boe_base_rate_forecast.ipynb`: The original Jupyter notebook containing the analysis, code, and visualizations. (New notebooks for latest updates)
 `README.md`: This file, providing an overview and guide to the project.
 
 ### Getting Started
@@ -54,6 +54,6 @@ It’s a strong example of my qualifications for data science and analyst roles,
 Feel free to reach out for questions or collaboration:
 - GitHub: [bobby-waitung-lo](https://github.com/bobby-waitung-lo)
 - LinkedIn: [Bobby Lo](https://www.linkedin.com/in/bobby-waitung-lo)
-- Medium: [Bobby Lo](https://medium.com/@bobbylo/will-the-bank-of-england-cut-rates-in-2025-a-data-driven-forecast-may-2025-c8d10ef3e9c4)
+- Medium: [Bobby Lo](https://bobbylo.medium.com/bank-of-englands-2025-rate-cuts-a-data-driven-forecast-amid-shifting-economic-winds-june-2025-0ff45cbc7a89)
 
 Explore the notebook to see how data science can unlock insights into monetary policy and economic trends!
